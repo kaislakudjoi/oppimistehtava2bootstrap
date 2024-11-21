@@ -231,3 +231,16 @@ input[type=submit] {
 #video1-tab, #video2-tab, #video3-tab{
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    input[type="submit"], input[type="reset"] {
+        font-size: 1em;
+        padding: 8px;
+    }
+    label, input, textarea {
+        font-size: 1em;
+    }
+}
