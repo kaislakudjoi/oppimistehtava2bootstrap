@@ -112,7 +112,7 @@ p{
 }
 
 /*lomake*/
-label.muoto{
+/*label.muoto{
     display:inline-block;  
     width:6em;                        
     vertical-align: top;
@@ -158,6 +158,68 @@ label.muoto{
     cursor: pointer;
   }
 
+    input[type=reset] {
+    background-color: #766a57;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+    input[type=reset]:hover {
+    background-color: #372e16
+}
+
+
+::placeholder {
+    color:#766a57;
+    opacity: 1; /* Firefox 
+  }
+  
+::-ms-input-placeholder { /* Edge 12 -18 
+    color:#766a57;
+  }*/
+
+  /*lomake*/
+label.muoto{
+    display:inline-block;  
+    width:6em;                        
+    vertical-align: top;
+} 
+
+#otaYhteyttaLomake{
+    display:flex;  
+    justify-content: center;
+    align-content: center;
+    width:100%;                        
+    text-align:left; 
+    vertical-align: top;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 70px;
+    padding: 70px;
+    background-color:#8f7e51;
+    padding: 30px;
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    resize: vertical 
+}
+
+
+input[type=submit] {
+    background-color:#766a57;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color:#372e16;
+  }
+
+  
     input[type=reset] {
     background-color: #766a57;
     color: white;
@@ -238,6 +300,7 @@ label.muoto{
     color: #ffffff;
 }
 
+/*
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -249,4 +312,4 @@ label.muoto{
     label, input, textarea {
         font-size: 1em;
     }
-}
+}*/
