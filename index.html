@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Oppimistehtävä 2</title>
+  <title>KAKEN CAFEE TERVETULOA!</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +12,11 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <main id="alku" class="container-fluid">
 
+<!-- Navigaatio -->
         <nav class="navbar navbar-expand-sm navbar-light navbar-custom fixed-top">
             <div class="container-fluid">
-                <img src="logo.png" alt="Logo" style="width:40px;" class="rounded-pill">
-              <a class="navbar-brand" href="#alku">Kaislan kahvila</a>
+                <img src="logokiivi.png" alt="Logo" style="width:40px;" class="rounded-pill">
+              <a class="navbar-brand" href="#alku">KAKEN CAFEE</a>
               <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -25,30 +26,30 @@
                     <a class="nav-link" href="#demo">Etusivu</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#kahvila">Kahvila</a>
-                  </li>
+                    <a class="nav-link" href="#kahvila">Aukioloajat</a>
+                  </li> 
                   <li class="nav-item">
-                    <a class="nav-link" href="#otaYhteyttaLomake">Ota yhteyttä</a>
-                 </li> 
+                    <a class="nav-link" href="#kortit">Meistä</a>
+                 </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menu</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Syö meillä</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#headingOne">Lounas</a></li>
-                      <li><a class="dropdown-item" href="#">Pientä purtavaa</a></li>
-                      <li><a class="dropdown-item" href="#">Juomat</a></li>
+                      <li><a class="dropdown-item" href="#headingOne">Pientä purtavaa</a></li>
+                      <li><a class="dropdown-item" href="#headingTwo">Lounas</a></li>
+                      <li><a class="dropdown-item" href="#headingThree">Juomat</a></li>
                     </ul>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#otaYhteyttaLomake">Ota yhteyttä!</a>
+                 </li>
                 </ul>
               </div>
             </div>
           </nav>
 
-
-
-          <!-- Carousel -->
+<!-- Karuselli -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <!-- Indicators/dots -->
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
       <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -57,39 +58,41 @@
       
     </div>
     
-    <!-- The slideshow/carousel -->
+    
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="kahvila.jpg" alt="Kahvilan tiski" class="d-block" style="width:100%">
+        <img src="kahvila.jpg" alt="Kaken cafeen tunnelmallinen puunsävyinen sisätila,
+         jossa on pöytiä ja ihmisiä istuskelemassa." class="d-block" style="width:100%">
         <div class="carousel-caption">
-          <h3>Tervetuloa Kaislan Kahvilaan!</h3>
-          <p>Tarjolla erikoiskahveja</p>
+          <h3>TERVETULOA KAKEN CAFEESEEN!</h3>
+          <p>ma-pe 7-22 <br> la-su 10-20</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="avokaadoleivat.jpg" alt="Avokaadoleivät" class="d-block" style="width:100%">
+        <img src="avokaadoleivät.jpg" alt="Kaksi maukasta avokaadoleipää lautasella" class="d-block" style="width:100%">
         <div class="carousel-caption">
           <h3>Pientä purtavaa</h3>
-          <p>jokaiseen makuun!</p>
+          <p>tietysti jokaiseen makuun!</p>
         </div> 
       </div>
       <div class="carousel-item">
-        <img src="avokaadosalde.jpg" alt="Avokaadosalaatti" class="d-block" style="width:100%">
+        <img src="avokaadosalde.jpg" alt="Avokaado-tofu-salaatti, jota syödään puikoilla" class="d-block" style="width:100%">
         <div class="carousel-caption">
           <h3>Lounas</h3>
-          <p>tarjolla klo 11-14!</p>
+          <p>tarjolla ma-pe klo 11-14!</p>
         </div> 
         </div> 
         <div class="carousel-item">
-            <img src="kahvi.jpg" alt="Kahvin koristelua" class="d-block" style="width:100%">
+            <img src="kahvi.jpg" alt="Erikoiskahvi vihreässä kahvimukissa puisella pöydällä,
+             jossa on myös kahvipapuja" class="d-block" style="width:100%">
             <div class="carousel-caption">
-              <h3>Teen ystäville</h3>
+              <h3>Kahvin ja teen ystäville</h3>
               <p>suuri valikoima!</p>
         </div>  
         </div>
     </div>
     
-    <!-- Left and right controls/icons -->
+    <!-- Karusellin napit -->
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </button>
@@ -98,51 +101,59 @@
     </button>
   </div>
 
+  <!-- Pari kuvaa ja teksti -->
   <div id="kahvila" class="container">
     <div class="row">
         <div class="col-md-4">
-            <img src="lounaskroisantit.jpg" alt="Ruokaisat kroisantit" id="pyoristettykuva">
+            <img src="lounaskroisantit.jpg" alt="Ruokaisat kroisanttiannokset" id="pyoristettykuva">
         </div>
         <div class="col-md-4">
-            <p>Tämä on keskimmäinen palsta, jossa on tekstiä. Voit lisätä haluamaasi sisältöä tähän.</p>
+            <h2>Aukioloajat</h2>
+            <p>ma-pe 7-22 <br> la-su 10-20 <br><br>  Tule nauttimaan ja viihtymään rennossa tunnelmassa. 
+              Tule tapaamaan ystäviä, opiskelemaan rauhassa tai vain rentoutumaan 
+              hyvän kahvikupin äärellä. 
+              Kaken Cafee on paikka, jossa aika kuluu kuin huomaamatta. <br><br>Nähdään pian!  </p>
         </div>
         <div class="col-md-4">
-            <img src="lounassalaatti.jpg" alt="Salaatti" id="pyoristettykuva2">
+            <img src="lounassalaatti.jpg" alt="Ruokaisa nuudelisalaatti" id="pyoristettykuva2">
         </div>
     </div>
 </div>
 
 <div id="kortit" class="card-group">
   <div class="card">
-    <img src="lounaskroisantit.jpg" class="card-img-top" alt="...">
+    <img src="erikoiskahvit.jpg" class="card-img-top" alt="Kaksi kaunista erikoiskahvia
+    mustissa kupeissa puisella pöydällä">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Erikoiskahvimme – täydellinen hetki</h5>
+      <p class="card-text">Kaken Cafeessa erikoiskahvit eivät ole vain juoma,
+         vaan kokemus. Huolella valmistetut latteartit ja aromikkaat kahvit tarjoavat 
+         nautinnollisen tauon arjen kiireistä. Tule nauttimaan yksin tai ystävien kanssa!.</p>
     </div>
   </div>
   <div class="card">
-    <img src="lounaskroisantit.jpg" class="card-img-top" alt="...">
+    <img src="lounaskroisantit.jpg" class="card-img-top" alt="Ruokaisat kroisanttiannokset">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Täytetyt croissantit – makuelämys joka puraisulla</h5>
+      <p class="card-text">Mikä olisikaan parempi aloitus päivälle kuin herkullinen, 
+        vastapaistettu croissant täytteillä, 
+        jotka hivelevät makuhermojasi?
+         Kahvimme kylkeen sopii täydellisesti valikoimamme suolaiset herkut.</p>
     </div>
   </div>
   <div class="card">
-    <img src="lounaskroisantit.jpg" class="card-img-top" alt="...">
+    <img src="kahvila2.jpg" class="card-img-top" alt="Tunnelmallinen kuva Kaken
+    cafeesta. Kuva on otettu ulko-ovelle päin ja siinä näkyy tuoleja.">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Kahvilamme – lämmin tunnelma</h5>
+      <p class="card-text">Kaken Cafee on enemmän kuin kahvila – se on paikka rentoutua, tavata ystäviä ja nauttia tunnelmallisesta ympäristöstä. Kodikas sisustus ja valoisa tila tekevät jokaisesta hetkestä erityisen..</p>
     </div>
   </div>
   <div class="card">
-    <img src="lounaskroisantit.jpg" class="card-img-top" alt="...">
+    <img src="lounassalaatti.jpg" class="card-img-top" alt="Ruokaisa nuudelisalaatti">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Salaatit – terveellistä ja herkullista</h5>
+      <p class="card-text">Lounasalaattimme on täydellinen valinta kevyeksi, mutta ravitsevaksi aterialle. Tuoreet raaka-aineet, runsaat makuyhdistelmät ja kaunis esillepano tekevät lounaastasi hetken, joka muistetaan.</p>
     </div>
   </div>
 </div>
@@ -151,26 +162,26 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
+        Pientä purtavaa
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body d-flex flex-lg-row flex-column align-items-center">
-        <img src="lounassalaatti.jpg" alt="Image 1" class="accordion-img">
-        <p class="accordion-text">tekstiä haitarimalliin</p>
-        <img src="lounassalaatti.jpg" alt="Image 1" class="accordion-img">
+        <img src="avokaadoleivät.jpg" alt="Image 1" class="accordion-img">
+        <p class="accordion-text">Kaken Cafeessa tarjolla on herkullisia pieniä purtavia, jotka sopivat täydellisesti kahvin tai teen seuraksi. Valikoimamme sisältää tuoreita leivonnaisia, suolaisia herkkuja ja pieniä välipaloja, jotka tekevät päivästäsi nautinnollisen. Olitpa sitten nauttimassa rentouttavasta hetkestä yksin tai ystävien kanssa, löydät meiltä aina jotain pientä ja maistuvaa. Tervetuloa herkuttelemaan!</p>
+        <img src="avokaadosalde.jpg" alt="Image 1" class="accordion-img">
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
+        Lounas
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body d-flex flex-lg-row flex-column align-items-center">
-        <p class="accordion-text">tekstiä haitarimalliin</p>
+        <p class="accordion-text">Kaken Cafeessa tarjoamme maistuvan ja ravitsevan lounasvalikoiman, joka tuo raikkautta ja makuja päivääsi. Lounasvaihtoehtomme koostuvat tuoreista salaateista, maukkaista voileivistä ja lämpimistä annoksista, jotka valmistetaan aina tuoreista raaka-aineista. Tervetuloa nauttimaan lounaasta, joka täyttää vatsan ja ilahduttaa mielen!</p>
         <img src="lounassalaatti.jpg" alt="Image 1" class="accordion-img">
       </div>
     </div>
@@ -178,13 +189,13 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
+        Juomat
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body d-flex flex-lg-row flex-column align-items-center">
-        <img src="lounassalaatti.jpg" alt="Image 1" class="accordion-img">
-        <p class="accordion-text">tekstiä haitarimalliin</p>
+        <img src="kahvi.jpg" alt="Image 1" class="accordion-img">
+        <p class="accordion-text">Kaken Cafeessa juomatarjonta on yhtä monipuolinen kuin herkulliset ruoka-annoksemme. Voit nauttia erikoiskahveistamme, kuten vaahtokermalla kruunatuista lattekahveista tai virkistävistä jääkahveista. Meillä on myös valikoima teitä, tuoreita mehuja ja raikkaita virvoitusjuomia. Tule nauttimaan täydellisestä juomasta juuri oman makusi mukaan!</p>
       </div>
     </div>
   </div>
@@ -206,18 +217,18 @@
 
 <div class="tab-content">
   <div class="tab-pane fade show active" id="video1" role="tabpanel" aria-labelledby="video1-tab">
-    <div class="ratio ratio-16x9">
+    <div class="ratio ratio-21x9">
       <iframe src="https://www.youtube.com/embed/7x_e5xeWFX0?si=UOFLGtuRKRnBwN0m" title="YouTube video" allowfullscreen></iframe>
     </div>
   </div>
   <div class="tab-pane fade" id="video2" role="tabpanel" aria-labelledby="video2-tab">
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/7x_e5xeWFX0?si=UOFLGtuRKRnBwN0m" title="YouTube video" allowfullscreen></iframe>
+    <div class="ratio ratio-21x9">
+      <iframe src="https://www.youtube.com/embed/XaU7R_K3eqs?si=46XwZ-luYWWhZ4a6" title="YouTube video" allowfullscreen></iframe>
     </div>
   </div>
   <div class="tab-pane fade" id="video3" role="tabpanel" aria-labelledby="video3-tab">
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/7x_e5xeWFX0?si=UOFLGtuRKRnBwN0m" title="YouTube video" allowfullscreen></iframe>
+    <div class="ratio ratio-21x9">
+      <iframe src="https://www.youtube.com/embed/YGW9srgLyoU?si=Rm4UVoPMpAHuUcOX" title="YouTube video" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -225,16 +236,16 @@
 <div id="otaYhteyttaLomake" class="container">
   <form onsubmit="return false">
     <label for="nimi" class="muoto">Nimi:</label>
-    <input type="text" id="nimi" placeholder="Kerro nimesi" required>
+    <input type="text" id="nimi" placeholder="Nimi" required>
     <br>
-    <label for="sposti" class="muoto">Sähköposti</label>
+    <label for="sposti" class="muoto">Sähköposti:</label>
     <input type="email" id="sposti" placeholder="Sähköpostiosoite" required>
     <br>
-    <label for="puh" class="muoto" >Puhelin</label>
+    <label for="puh" class="muoto" >Puhelin:</label>
     <input type="tel" id="puh" placeholder="Puhelinnumero" >
     <br>
     <br>
-    <label for="palaute" class="muoto">Palaute</label>
+    <label for="palaute" class="muoto">Palaute:</label>
     <textarea id="palaute" rows="5" cols="50" placeholder="Kerro mielipiteesi..."></textarea>
     <br>
     <br>
@@ -247,23 +258,26 @@
     <label for="pienetPurtavat">Pienet purtavat</label>
     <br>
     <input type="radio" id="kahvit" name="parasta" value="kahvit">
-    <label for="kahvit">Kahvit</label>
+    <label for="kahvit">Miljöö</label>
     <br>
     <br>
-    <label>Mitä haluaisit lisää kahvilaamme?</label>
+    <label>Mitä toivoisit kahvilaamme?</label>
     <br>
     <input type="checkbox" id="lounasvaihtoehtoja" name="lisaa" value="lounasvaihtoehtoja">
-    <label for="lounasvaihtoehtoja">Lounasvaihtoehtoja</label>
+    <label for="lounasvaihtoehtoja">Lisää lounasvaihtoehtoja</label>
     <br>
     <input type="checkbox" id="kausituotteita" name="lisaa" value="kausituotteita">
-    <label for="kausituotteita">Kausituotteita</label>
+    <label for="kausituotteita">Vaihtuvia kausituotteita</label>
+    <br>
+    <input type="checkbox" id="juomavaihtoehtoja" name="lisaa" value="juomavaihtoehtoja">
+    <label for="juomavaihtoehtoja">Lisää juomavaihtoehtoja</label>
     <br>
     <br>
-    <label>Löysitkö etsimäsi?</label>
+    <label>Löysitkö etsimäsi nettisivuilta?</label>
     <br>
     <select name="löytyikö" id="löytyikö">
         <option value="kyllä">Kyllä</option>
-        <option value="ehkä" id="ehkä">Ehkä</option>
+        <option value="Joo ja en" id="jooei">Joo ja en</option>
         <option value="en" id="en">En</option>
     </select>
     <br>
@@ -279,34 +293,34 @@
 
   <div id="yhteystiedot" class="container mt-3">
     <h2>Yhteystiedot</h2>
-    <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+    <p>Voit myös ottaa yhteyttä meihin suoraan sähköpostilla tai soittamalla</p>            
     <div class="table-responsive">
     <table class="table">
       <thead>
         <tr>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Email</th>
+          <th></th>
+          <th>Ota yhteyttä</th>
+          <th>Sähköposti</th>
           <th>Puhelin</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>John</td>
-          <td>Doe</td>
-          <td>john@example.com</td>
+          <td>Töihin meille?</td>
+          <td>Kake</td>
+          <td>kake@example.com</td>
           <td>0401234567</td>
         </tr>
         <tr>
-          <td>Mary</td>
-          <td>Moe</td>
-          <td>mary@example.com</td>
+          <td>Risut ja ruusut!</td>
+          <td>Kake</td>
+          <td>kake@example.com</td>
           <td>0401234567</td>
         </tr>
         <tr>
-          <td>July</td>
-          <td>Dooley</td>
-          <td>july@example.com</td>
+          <td>Tuotteitasi meille myyntiin?</td>
+          <td>Kake</td>
+          <td>kake@example.com</td>
           <td>0401234567</td>
         </tr>
       </tbody>

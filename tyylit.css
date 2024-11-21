@@ -1,60 +1,11 @@
+/*fontit*/
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Slabo+27px&display=swap');
 
-/* navigaatio */
-/* taustan väri */
-.navbar-custom {
-    background-color: rgba(127, 200, 132, 0.9);
+/* SIVUN "VARTALO"*/
+body { 
+    position: relative; 
+    background-color: #8f7e51;
 }
-
-/* brandin ja tekstin väri */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text{
-    color: rgba(241,135,187, 0.8);
-    font-family: "Amatic SC", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* linkin väri */
-.navbar-custom .navbar-nav .nav-link {
-    color: rgba(241,135,187, 0.8);
-    font-family: "Amatic SC", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* aktiivisen & hover-linkin väri */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
-}
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-
-  .custom-toggler.navbar-toggler {
-    border-color: rgba(255,102,203, 0.5);
-}
-
-.nav-item .dropdown-menu a:hover {
-    color: white !important;
-    background: pink !important;
-    cursor: pointer;
-}
-
-.nav-link.active {
-    color: green !important;
-}
-
-body { position: relative; 
-}
-
-
-.carousel-inner img {
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-    min-height:200px; }
-
 
 h1{
     font-family: "Slabo 27px", serif;
@@ -67,16 +18,97 @@ p{
     font-optical-sizing: auto;
 }
 
-  
+
+/* NAVIGAATIO */
+/* navin taustan väri */
+.navbar-custom {
+    background-color:#8f7e51;
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: #ffffff;
+    font-family: "Amatic SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* linkit */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: "Amatic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-link.active {
+    color:#372e16 !important;
+}
+
+/*navin hover*/
+.navbar .nav-link:hover{
+    color:#e7d887;
+}
+
+/*dropdown valikko*/
+.nav-item .dropdown-menu a:hover {
+    color: white !important;
+    background: #8f7e51 !important;
+    cursor: pointer;
+}
+
+/*hamburger valikko*/
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.custom-toggler.navbar-toggler {
+    border-color:#372e16;
+}
+
+/*KARUSELLI*/
+
+
+.carousel-item img {
+    object-fit: cover; /* Säilyttää kuvan mittasuhteet, mutta rajaa tarvittaessa */
+    height: 100%; /* Mukautuu karusellin korkeuteen */
+    width: 100%; /* Säilyttää leveyden */
+}
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height:200px;
+    height: 650px;
+}
+
+.carousel-caption{
+    color:#ffffff;
+}
+
+/*AUKIOLOAJAt*/
 #kahvila {
     padding-top: 70px;
+    padding-bottom: 70px;
 
 }
 
-#pyoristettykuva, #pyoristettykuva2 {
-    width: 100%;           /* Kuva mukautuu suhteellisesti */
-    max-width: 500px;      /* Maksimileveys */
-    border-radius: 30% 0 30% 0; /* Pyöristetään vasen ylä- ja oikea alakulma */
+#pyoristettykuva {
+    width: 100%;          
+    max-width: 500px;     
+    border-radius: 30% 0 30% 0; 
+}
+#pyoristettykuva2 {
+    width: 100%;           
+    max-width: 500px;     
+    border-radius: 30% 0 30% 0; 
+}
+
+/*KUVAT*/
+.card img {
+    height: 200px;
+    width: 100%; 
+    object-fit: cover; 
 }
 
 /*lomake*/
@@ -95,16 +127,18 @@ label.muoto{
     vertical-align: top;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: bisque;
+    padding: 70px;
+    padding: 70px;
+    background-color:#8f7e51;
     padding: 30px;
-    border-radius: 10px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    resize: vertical 
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color:#766a57;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -112,14 +146,14 @@ input[type=submit] {
     cursor: pointer;
   }
 
-  /* When moving the mouse over the submit button, add a darker green color */
+
     input[type=submit]:hover {
-    background-color: #45a049;
+    background-color:#372e16;
   }
 
-  /* Style the reset button with a specific background color etc */
+  
     input[type=reset] {
-    background-color: #04AA6D;
+    background-color: #766a57;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -127,19 +161,18 @@ input[type=submit] {
     cursor: pointer;
   }
 
-/* When moving the mouse over the submit button, add a darker green color */
     input[type=reset]:hover {
-    background-color: #45a049;
+    background-color: #372e16
 }
 
 
 ::placeholder {
-    color: green;
+    color:#766a57;
     opacity: 1; /* Firefox */
   }
   
 ::-ms-input-placeholder { /* Edge 12 -18 */
-    color: green;
+    color:#766a57;
   }
 
 /*haitarimalli*/
@@ -147,11 +180,20 @@ input[type=submit] {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color:#ffffff;
+    color: #766a57;
+  }
+
+  .accordion-button{
+    background-color:#ffffff; 
+    color: #766a57;
   }
   
   .accordion-img {
     height: 400px;
     margin: 10px;
+    width: 40%;
+    object-fit: cover;
   }
 
   .accordion-text {
@@ -165,10 +207,27 @@ input[type=submit] {
 }
 
 #accordionExample{
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
 }
 
+/*videot*/
 #videoTabs{
     margin-top: 50px;
+    max-width: 900px; /* Määritä haluamasi maksimileveys */
+    margin: 0 auto;   /* Keskittää videon */
 }
 
+.tab-content {
+    max-width: 900px; /* Määritä haluamasi maksimileveys */
+    margin: 0 auto;   /* Keskittää videon */
+  }
+  
+  .ratio {
+    width: 100%;      /* Pidä leveys skaalautuvana */
+  }
+
+#video1-tab, #video2-tab, #video3-tab{
+    color: #ffffff;
+}
