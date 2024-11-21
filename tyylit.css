@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Slabo+27px&display=swap');
+
+/* navigaatio */
+/* taustan väri */
+.navbar-custom {
+    background-color: rgba(137,17,76,0.9);
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: rgba(241,135,187, 0.8);
+    font-family: "Amatic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(241,135,187, 0.8);
+    font-family: "Amatic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .custom-toggler.navbar-toggler {
+    border-color: rgba(255,102,203, 0.5);
+}
+
+.nav-item .dropdown-menu a:hover {
+    color: white !important;
+    background: pink !important;
+    cursor: pointer;
+}
+
+.nav-link.active {
+    color: green !important;
+}
+
+body { position: relative; 
+}
+
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px; }
+
+
+h1{
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+}
+
+  
+#kahvila {
+    padding-top: 70px;
+
+}
+
+#pyoristettykuva {
+    width: 100%;           /* Kuva mukautuu suhteellisesti */
+    max-width: 500px;      /* Maksimileveys */
+    border-radius: 30% 0 30% 0; /* Pyöristetään vasen ylä- ja oikea alakulma */
+}
+
+/*lomake*/
+label.muoto{
+    display:inline-block;  
+    width:6em;                        
+    vertical-align: top;
+} 
+
+#otaYhteyttaLomake{
+    display:flex;  
+    justify-content: center;
+    align-content: center;
+    width:100%;                        
+    text-align:left; 
+    vertical-align: top;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: bisque;
+    padding: 30px;
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Style the reset button with a specific background color etc */
+    input[type=reset] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+/* When moving the mouse over the submit button, add a darker green color */
+    input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+
+::placeholder {
+    color: green;
+    opacity: 1; /* Firefox */
+  }
+  
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: green;
+  }
+
+/*haitarimalli*/
+.accordion-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .accordion-img {
+    height: 400px;
+    margin: 10px;
+  }
+
+  .accordion-text {
+    text-align: center;
+    margin: 10;
+    font-size: 16px;
+  }
+
+#kortit{
+    margin-top: 50px;
+}
+
+#accordionExample{
+    margin-top: 50px;
+}
+
+#videoTabs{
+    margin-top: 50px;
+}
+
