@@ -181,27 +181,6 @@ label.muoto{
     color:#766a57;
   }
 
-/* Mobiili-responsiivisuus */
-@media (max-width: 768px) {
-    #otaYhteyttaLomake {
-        padding: 20px; /* Pienempi padding mobiilissa */
-    }
-
-    input[type="submit"], input[type="reset"] {
-        width: 100%; /* Tekee painikkeista täysleveitä mobiilissa */
-        font-size: 1em;
-    }
-
-    input[type="text"], input[type="email"], input[type="tel"], textarea, select {
-        font-size: 1em; /* Mobiilissa pienempi fonttikoko */
-    }
-
-    label.muoto {
-        width: 100%; /* Label vie täyden leveyden mobiilissa */
-        margin-bottom: 10px;
-    }
-}
-
 /*haitarimalli*/
 .accordion-body {
     display: flex;
@@ -259,7 +238,7 @@ label.muoto{
     color: #ffffff;
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
     .container {
         padding: 15px;
     }
@@ -270,4 +249,4 @@ label.muoto{
     label, input, textarea {
         font-size: 1em;
     }
-}*/
+}
