@@ -152,7 +152,7 @@ label.muoto{
 
 
 
-/*input[type=submit] {
+input[type=submit] {
     background-color:#766a57;
     color: white;
     padding: 12px 20px;
@@ -160,7 +160,7 @@ label.muoto{
     border-radius: 4px;
     cursor: pointer;
   }
-  */
+  
 
   input[type="text"], input[type="email"], input[type="tel"], textarea, select {
     width: 100%; 
