@@ -73,7 +73,7 @@ p{
 
 }
 
-#pyoristettykuva {
+#pyoristettykuva, #pyoristettykuva2 {
     width: 100%;           /* Kuva mukautuu suhteellisesti */
     max-width: 500px;      /* Maksimileveys */
     border-radius: 30% 0 30% 0; /* Pyöristetään vasen ylä- ja oikea alakulma */
